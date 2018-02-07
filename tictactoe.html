@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+</head>
+<body onload="fnLoad()">
+	<div class="container center">
+        <div>
+            <select id="grid">
+            </select>
+            <button name="NewGame" class="newGame centerB" value="Start a New Game" onClick="fnNewGame()">Start a New Game</button>
+        </div>
+        <div class="minContainer center">
+            <table class="row" id="game"></table>
+        </div>
+    </div>
+</body>
+</html>
